@@ -19,14 +19,12 @@
       padding: 0;
       box-sizing: border-box;
     }
-
     .login-main {
       display: flex;
       justify-content: space-around !important;
       min-height: 100vh;
     }
     .login-main::before {
-      /* background-color: #f4f8ef; */
       content: "";
       position: absolute;
       top: 0;
@@ -38,10 +36,8 @@
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
-
       opacity: 0.6; /*Value from 0.0 to 1.0*/
     }
-
     .login-container {
       width: 100%;
       display: flex;
@@ -53,11 +49,9 @@
       display: flex;
       align-items: center;
     }
-
     .bg-less-text-illustrator {
       width: 30vw;
     }
-
     .right-division .login-card {
       border-radius: 1.55rem;
       padding: 1rem;
@@ -85,14 +79,12 @@
       border-radius: 0.5rem;
       background-color: #f1f5f9;
     }
-
     @media only screen and (max-width: 1400px) {
       form input {
         height: 2.5rem;
         width: 20rem;
       }
     }
-
     form input:focus {
       border: 1px solid var(--color-blue);
     }
@@ -104,7 +96,6 @@
       font-size: 1.5rem;
       font-weight: 400;
     }
-
     input[type="submit"] {
       cursor: pointer;
       background-color: var(--color-blue);
@@ -112,11 +103,9 @@
       font-size: 1rem;
       font-weight: 600;
     }
-
     .color-grey {
       color: #c1c1c1;
     }
-
     .sm-card-illustrator {
       display: none;
       height: 18rem;
@@ -139,23 +128,16 @@
         padding-top: 1rem;
         background-color: white;
       }
-
       .form-card {
         margin-top: 3rem;
       }
       .sm-card-illustrator::before {
-        /* background-color: #f4f8ef; */
         position: absolute;
         top: 0;
         right: 0;
         bottom: 0;
         left: 0;
         z-index: -1;
-        /* background-image: url("./assets/images/abstract.jpg"); */
-        /* background-size: cover; */
-        /* background-position: center; */
-        /* background-repeat: no-repeat; */
-
         opacity: 0.6; /*Value from 0.0 to 1.0*/
       }
       .sm-card-illustrator {
@@ -165,7 +147,6 @@
         background-image: url("./assets/images/text-illustrator.png");
         background-size: contain;
       }
-
       .sm-card-illustrator {
         display: block;
       }
@@ -191,7 +172,6 @@
     form input {
       font-size: 1rem;
     }
-
     form {
       padding: 1rem;
     }
@@ -210,9 +190,7 @@
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
-      /* background-color: red; */
     }
-
     .sm-illustrator-container {
       border-bottom-left-radius: 2rem;
       border-bottom-right-radius: 2rem;
@@ -252,7 +230,7 @@
                 <span class="sub-heading-text text-blue color-grey">Glad to see you!</span>
               </header>
 
-              <form action="">
+              <form>
                 <input placeholder="Username" type="text" />
                 <input placeholder="Password" type="password" />
                 <input type="submit" value="Login" />
